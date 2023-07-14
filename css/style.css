@@ -307,6 +307,34 @@ footer {
         width: 350px;
     }
 
+    .gmail-contacto {
+        display: flex;
+        font-size: 16px;
+        gap: 10px;
+    }
+
+    .gmail-contacto img {
+        width: 40px;
+    }
+
+    .gmail-contacto figcaption {
+        margin-top: 5px;
+    }
+
+    .wpp-contacto {
+        display: flex;
+        font-size: 16px;
+        gap: 10px;
+    }
+
+    .wpp-contacto img {
+        width: 40px;
+    }
+
+    .wpp-contacto figcaption {
+        margin-top: 10px;
+    }
+
     .footer-contenido {
         display: flex;
         flex-direction: column;
