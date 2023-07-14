@@ -283,7 +283,7 @@ footer {
     }
 }
 
-/*****************MEDIDAS TABLET 425 PX********************/
+/*****************MEDIDAS MOBILE 425 PX********************/
 
 @media (max-width: 425px) {
     html {
@@ -317,7 +317,7 @@ footer {
         padding: 20px;
     }
 }
-/*****************MEDIDAS CELULAR 320PX********************/
+/*****************MEDIDAS MOBILE 320PX********************/
 @media (max-width: 320px) {
     html {
         overflow-x: hidden;
