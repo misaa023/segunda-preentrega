@@ -276,6 +276,13 @@ footer {
 
 /*****************MEDIDAS TABLET 768 PX********************/
 @media (max-width: 768px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    body {
+        width: 100%;
+    }
     header {
         background-position: center;
     }
