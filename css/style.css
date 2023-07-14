@@ -303,6 +303,10 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+
+    .img-redes {
+        width: 60px;
+    }
 }
 
 /*****************MEDIDAS TABLET 612 PX********************/
@@ -482,6 +486,10 @@ footer {
         padding: 20px;
         margin: 10px;
     }
+
+    .img-redes {
+        width: 60px;
+    }
 }
 
 /*****************MEDIDAS MOBILE 320PX********************/
@@ -568,6 +576,10 @@ footer {
     .redes {
         padding: 20px;
         margin: 10px;
+    }
+
+    .img-redes {
+        width: 60px;
     }
 
     /*======================================*/
