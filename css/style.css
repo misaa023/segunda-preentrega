@@ -290,6 +290,50 @@ footer {
     h1 {
         font-size: 1.6rem;
     }
+
+    .bebidas img {
+        width: 300px;
+    }
+    .contacto {
+        width: 600px;
+    }
+
+    .footer-contenido {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*****************MEDIDAS TABLET 612 PX********************/
+@media (max-width: 612px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    body {
+        width: 100%;
+    }
+    header {
+        background-position: center;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    .bebidas img {
+        width: 200px;
+    }
+    .contacto {
+        width: 350px;
+    }
+
+    .footer-contenido {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 /*****************MEDIDAS MOBILE 425 PX********************/
