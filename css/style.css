@@ -233,6 +233,13 @@ footer {
 /*============================================*/
 
 @media (max-width: 1920px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    body {
+        width: 100%;
+    }
     .galeria-inicio {
         display: flex;
         flex-direction: row;
@@ -241,6 +248,10 @@ footer {
 
     .contacto {
         margin: 2.5rem auto;
+    }
+
+    .bebidas img {
+        width: 300px;
     }
 
     .footer-contenido {
@@ -259,6 +270,14 @@ footer {
 
 /*****************MEDIDAS DESKTOP 1024PX********************/
 @media (max-width: 1024px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    body {
+        width: 100%;
+    }
+
     .galeria-inicio {
         display: flex;
         flex-direction: row;
