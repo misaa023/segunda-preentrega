@@ -1,11 +1,12 @@
 # Proyecto Página Web de Bebidas
 
-> segunda preentrega del proyecto de coder house
+> Tercera preentrega del proyecto de coder house
 
 **para este proyecto se utilizo :**
 
 -   HTML
 -   CSS
+-   SCSS
 
 ---
 
