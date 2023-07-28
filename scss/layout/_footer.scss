@@ -1,0 +1,21 @@
+footer {
+    background-color: $color-text-secundario;
+    color: $color-text-principal;
+
+    .derechos {
+        text-align: center;
+    }
+
+    .footer-contenido {
+        @include dpflex(flex, none, space-around);
+    }
+
+    .redes {
+        padding-top: 20px;
+        margin-top: auto;
+    }
+
+    .img-btr {
+        margin-top: auto;
+    }
+}

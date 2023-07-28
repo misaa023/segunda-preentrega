@@ -1,3 +1,4 @@
+/* primera seccion*/
 .conteiner {
     h1 {
         background-color: rgb(122, 2, 2);
@@ -7,14 +8,43 @@
         font-size: $h1-letra;
     }
 
-    .galeria-inicio p {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+    .galeria-inicio {
+        @include dpflex(flex, row, center);
         flex-wrap: wrap;
+    }
+
+    p {
+        text-align: center;
         font-size: 1.875rem;
         padding: 1.25rem;
         margin-top: 1.25rem;
-        color: $color-text-principal;
+        color: white;
+    }
+
+    .bebidas img {
+        width: 400px;
+        margin: 0px 10px;
+    }
+}
+
+/*seccion secundaria*/
+
+.contacto {
+    background-color: $color-text-principal;
+    width: 600px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 2.5rem auto;
+
+    .gmail-contacto {
+        font-size: 1.2rem;
+        padding-top: 1.875rem;
+    }
+
+    .wpp-contacto {
+        font-size: 1.2rem;
+        padding-top: 1.875rem;
+        padding-bottom: 1.875rem;
     }
 }

@@ -1,0 +1,5 @@
+@mixin dpflex($display, $direccion, $jcontent) {
+    display: $display;
+    flex-direction: $direccion;
+    justify-content: $jcontent;
+}

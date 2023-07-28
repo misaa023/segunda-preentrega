@@ -24,6 +24,7 @@ header {
     header .nav-bar .navbar-nav .nav-link {
       color: white; }
 
+/* primera seccion*/
 .conteiner h1 {
   background-color: #7a0202;
   color: white;
@@ -31,12 +32,50 @@ header {
   padding: 2.5rem;
   font-size: 2.5rem; }
 
-.conteiner .galeria-inicio p {
+.conteiner .galeria-inicio {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.conteiner p {
+  text-align: center;
   font-size: 1.875rem;
   padding: 1.25rem;
   margin-top: 1.25rem;
   color: white; }
+
+.conteiner .bebidas img {
+  width: 400px;
+  margin: 0px 10px; }
+
+/*seccion secundaria*/
+.contacto {
+  background-color: white;
+  width: 600px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  margin: 2.5rem auto; }
+  .contacto .gmail-contacto {
+    font-size: 1.2rem;
+    padding-top: 1.875rem; }
+  .contacto .wpp-contacto {
+    font-size: 1.2rem;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem; }
+
+footer {
+  background-color: black;
+  color: white; }
+  footer .derechos {
+    text-align: center; }
+  footer .footer-contenido {
+    display: flex;
+    flex-direction: none;
+    justify-content: space-around; }
+  footer .redes {
+    padding-top: 20px;
+    margin-top: auto; }
+  footer .img-btr {
+    margin-top: auto; }
