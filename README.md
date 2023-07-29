@@ -1,13 +1,9 @@
 # Proyecto Página Web de Bebidas
 
-> Tercera preentrega del proyecto de coder house
+> Esta pagina esta hecha para que las personas puedan preparar tragos en sus casas.
+
+-   vas a poder preparar tus bebidas con alcohol y sin alcohol.
 
 **para este proyecto se utilizo :**
 
--   HTML
--   CSS
--   SCSS
-
----
-
-![](https://www.techrepublic.com/wp-content/uploads/2022/07/html-css-beginners.jpg?x27457)
+![](https://img-c.udemycdn.com/course/750x422/3807346_b630.jpg)
