@@ -1,0 +1,295 @@
+@media (max-width: 1024px) {
+    .galeria-tragos {
+        grid-template-columns: repeat(2, 45%);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        width: 100%;
+        background-position: center;
+    }
+
+    .galeria-tragos {
+        grid-template-columns: repeat(2, 45%);
+        gap: 20px;
+    }
+
+    .contacto {
+        width: 400px;
+    }
+
+    //sobre nosotros
+
+    .sobre-nosotros {
+        width: 600px;
+    }
+
+    .img-preparacion {
+        figure img {
+            width: 600px;
+        }
+    }
+}
+
+@media (max-width: 680px) {
+    .galeria-tragos {
+        grid-template-columns: repeat(1, 40%);
+    }
+
+    .conteiner {
+        h1 {
+            font-size: 1.1rem;
+        }
+
+        .galeria-inicio {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+
+            .bebidas {
+                img {
+                    width: 250px;
+                }
+            }
+        }
+    }
+
+    .sobre-nosotros {
+        width: 400px;
+        font-size: 1.3rem;
+    }
+
+    .img-preparacion {
+        figure img {
+            width: 400px;
+        }
+    }
+
+    footer .footer-contenido {
+        @include dpflex(flex, column, center);
+
+        div {
+            text-align: center;
+        }
+
+        .redes {
+            padding: 20px;
+            margin: 10px;
+        }
+    }
+
+    footer .img-btr {
+        width: 200px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 425px) {
+    body {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+        background-position: center;
+    }
+    // card
+    .galeria-tragos {
+        grid-template-columns: repeat(1, 45%);
+    }
+
+    .conteiner {
+        h1 {
+            font-size: 1.1rem;
+        }
+
+        .galeria-inicio {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+
+            .bebidas {
+                img {
+                    width: 250px;
+                }
+            }
+        }
+    }
+
+    .contacto {
+        width: 350px;
+
+        .gmail-contacto {
+            display: flex;
+            font-size: 16px;
+            gap: 10px;
+
+            img {
+                width: 40px;
+            }
+        }
+    }
+
+    //sobre nosotros
+
+    .sobre-nosotros {
+        width: 350px;
+        font-size: 1rem;
+    }
+
+    .img-preparacion {
+        figure img {
+            width: 350px;
+        }
+    }
+
+    // footer
+    .footer-contenido {
+        @include dpflex(flex, column, center);
+
+        div {
+            text-align: center;
+        }
+
+        .redes {
+            padding: 20px;
+            margin: 10px;
+        }
+    }
+
+    footer .img-btr {
+        width: 200px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 366px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    header {
+        background-position: center;
+    }
+
+    .contacto {
+        width: 320px;
+        text-align: center;
+    }
+
+    .conteiner {
+        h1 {
+            font-size: 1.1rem;
+        }
+
+        .galeria-inicio {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+
+            .bebidas {
+                img {
+                    width: 250px;
+                }
+            }
+        }
+    }
+    //sobre nosotros
+
+    .sobre-nosotros {
+        width: 300px;
+        font-size: 1rem;
+    }
+
+    .img-preparacion {
+        figure img {
+            width: 300px;
+        }
+    }
+    .footer-contenido {
+        @include dpflex(flex, column, center);
+
+        div {
+            text-align: center;
+        }
+
+        .redes {
+            padding: 20px;
+            margin: 10px;
+        }
+    }
+
+    footer .img-btr {
+        width: 200px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 320px) {
+    html {
+        overflow-x: hidden;
+    }
+    body {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+        background-position: center;
+    }
+
+    .conteiner {
+        h1 {
+            font-size: 1.1rem;
+        }
+
+        .galeria-inicio {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+
+            .bebidas {
+                img {
+                    width: 250px;
+                }
+            }
+        }
+    }
+
+    .contacto {
+        width: 300px;
+
+        .gmail-contacto {
+            display: flex;
+            font-size: 16px;
+            gap: 10px;
+
+            img {
+                width: 40px;
+            }
+        }
+    }
+
+    .footer-contenido {
+        @include dpflex(flex, column, center);
+
+        div {
+            text-align: center;
+        }
+
+        .redes {
+            padding: 20px;
+            margin: 10px;
+        }
+    }
+}

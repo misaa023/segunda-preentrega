@@ -43,8 +43,7 @@
     }
 
     .wpp-contacto {
-        font-size: 1.2rem;
-        padding-top: 1.875rem;
+        @extend .gmail-contacto;
         padding-bottom: 1.875rem;
     }
 }

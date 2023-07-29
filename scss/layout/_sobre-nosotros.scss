@@ -1,0 +1,23 @@
+.sobre-nosotros {
+    background-color: $color-text-principal;
+    padding: 20px;
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    font-size: 2rem;
+    margin-top: 50px;
+    border-radius: 10px;
+    height: auto;
+}
+
+.img-preparacion {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+
+    figure img {
+        border-radius: 20px;
+        width: 700px;
+    }
+}
