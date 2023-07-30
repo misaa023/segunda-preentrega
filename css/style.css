@@ -6,89 +6,111 @@
 /* Fuente y background de mi pagina*/
 /*==================================================*/
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-  background-color: #2c2a2a;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
+    background-color: #2c2a2a;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
 
 header {
-  background-image: url(../assets/img/coctel-decoracion-generativa-lima-limon-fresa-ai.jpg);
-  width: 100%;
-  height: 70vh;
-  background-size: cover; }
-  header .nav-bar {
-    background-color: #181717; }
-    header .nav-bar .navbar-nav .nav-link {
-      color: white; }
+    background-image: url(../assets/img/coctel-decoracion-generativa-lima-limon-fresa-ai.jpg);
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+}
+header .nav-bar {
+    background-color: #181717;
+}
+header .nav-bar .navbar-nav .nav-link {
+    color: white;
+}
 
 .navbar-toggler {
-  background-color: white; }
+    background-color: white;
+}
 
 /* primera seccion*/
 .conteiner h1 {
-  background-color: #7a0202;
-  color: white;
-  text-align: center;
-  padding: 2.5rem;
-  font-size: 2.5rem; }
+    background-color: #7a0202;
+    color: white;
+    text-align: center;
+    padding: 2.5rem;
+    font-size: 2.5rem;
+}
 
 .conteiner .galeria-inicio {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap; }
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 .conteiner p {
-  text-align: center;
-  font-size: 1.875rem;
-  padding: 1.25rem;
-  margin-top: 1.25rem;
-  color: white; }
+    text-align: center;
+    font-size: 1.875rem;
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    color: white;
+}
 
 .conteiner .bebidas img {
-  width: 400px;
-  margin: 0px 10px; }
+    width: 400px;
+    margin: 0px 10px;
+}
 
 /*seccion secundaria*/
 .contacto {
-  background-color: white;
-  width: 600px;
-  border-radius: 10px;
-  text-align: center;
-  padding: 20px;
-  margin: 2.5rem auto; }
-  .contacto .gmail-contacto, .contacto .wpp-contacto {
+    background-color: white;
+    width: 600px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 2.5rem auto;
+}
+.contacto .gmail-contacto,
+.contacto .wpp-contacto {
     font-size: 1.2rem;
-    padding-top: 1.875rem; }
-  .contacto .wpp-contacto {
-    padding-bottom: 1.875rem; }
+    padding-top: 1.875rem;
+}
+.contacto .wpp-contacto {
+    padding-bottom: 1.875rem;
+}
 
 footer {
-  background-color: black;
-  color: white; }
-  footer .derechos {
-    text-align: center; }
-  footer .footer-contenido {
+    background-color: black;
+    color: white;
+}
+footer .derechos {
+    text-align: center;
+}
+footer .footer-contenido {
     display: flex;
     flex-direction: none;
-    justify-content: space-around; }
-  footer .redes {
+    justify-content: space-around;
+}
+footer .redes {
     padding-top: 20px;
-    margin-top: auto; }
-  footer .img-btr {
-    margin-top: auto; }
+    margin-top: auto;
+}
+footer .img-btr {
+    margin-top: auto;
+}
 
 .galeria-tragos {
-  display: grid;
-  grid-template-columns: repeat(2, 30%);
-  grid-auto-rows: auto;
-  justify-content: center;
-  gap: 20px;
-  justify-items: center; }
-  .galeria-tragos .card-tragos {
+    display: grid;
+    grid-template-columns: repeat(2, 30%);
+    grid-auto-rows: auto;
+    justify-content: center;
+    gap: 20px;
+    justify-items: center;
+}
+.galeria-tragos .card-tragos {
     width: 300px;
     border-radius: 5px;
     background: #1a2a6c;
@@ -101,25 +123,31 @@ footer {
     margin-top: 40px;
     color: white;
     height: auto;
-    margin: 40px 0; }
-    .galeria-tragos .card-tragos .titulo {
-      font-size: 2rem;
-      background-color: black;
-      border-top-right-radius: 5px;
-      border-top-left-radius: 5px; }
-    .galeria-tragos .card-tragos .tragos-img img {
-      border-radius: 100%;
-      padding: 20px 0; }
-    .galeria-tragos .card-tragos .descripcion {
-      font-size: 1rem;
-      padding: 20px 10px; }
-    .galeria-tragos .card-tragos .receta li {
-      list-style: inside;
-      text-align: left;
-      padding-left: 10px; }
+    margin: 40px 0;
+}
+.galeria-tragos .card-tragos .titulo {
+    font-size: 2rem;
+    background-color: black;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.galeria-tragos .card-tragos .tragos-img img {
+    border-radius: 100%;
+    padding: 20px 0;
+}
+.galeria-tragos .card-tragos .descripcion {
+    font-size: 1rem;
+    padding: 20px 10px;
+}
+.galeria-tragos .card-tragos .receta li {
+    list-style: inside;
+    text-align: left;
+    padding-left: 10px;
+}
 
 .shadow-pop-bl:hover {
-  animation: shadow-pop-bl 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both; }
+    animation: shadow-pop-bl 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+}
 
 /* ----------------------------------------------
  * Generated by Animista on 2023-7-29 17:34:56
@@ -128,193 +156,268 @@ footer {
  * w: http://animista.net, t: @cssanimista
  * ---------------------------------------------- */
 @keyframes shadow-pop-bl {
-  0% {
-    box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
-    transform: translateX(0) translateY(0); }
-  100% {
-    box-shadow: -1px 1px #1e78ff, -2px 2px #1e78ff, -3px 3px #1e78ff, -4px 4px #d02b98, -5px 5px #d02b98, -6px 6px #d02b98, -7px 7px #d6c42b, -8px 8px #d6c42b;
-    transform: translateX(8px) translateY(-8px); } }
+    0% {
+        box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e,
+            0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+        transform: translateX(0) translateY(0);
+    }
+    100% {
+        box-shadow: -1px 1px #1e78ff, -2px 2px #1e78ff, -3px 3px #1e78ff,
+            -4px 4px #d02b98, -5px 5px #d02b98, -6px 6px #d02b98,
+            -7px 7px #d6c42b, -8px 8px #d6c42b;
+        transform: translateX(8px) translateY(-8px);
+    }
+}
 
 .sobre-nosotros {
-  background-color: white;
-  padding: 20px;
-  text-align: center;
-  width: 700px;
-  margin: 0 auto;
-  font-size: 2rem;
-  margin-top: 50px;
-  border-radius: 10px;
-  height: auto; }
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    font-size: 2rem;
+    margin-top: 50px;
+    border-radius: 10px;
+    height: auto;
+}
 
 .img-preparacion {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 40px; }
-  .img-preparacion figure img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+.img-preparacion figure img {
     border-radius: 20px;
-    width: 700px; }
+    width: 700px;
+}
 
 @media (max-width: 1024px) {
-  .galeria-tragos {
-    grid-template-columns: repeat(2, 45%);
-    gap: 20px; } }
+    .galeria-tragos {
+        grid-template-columns: repeat(2, 45%);
+        gap: 20px;
+    }
+}
 
 @media (max-width: 768px) {
-  header {
-    width: 100%;
-    background-position: center; }
-  .galeria-tragos {
-    grid-template-columns: repeat(2, 45%);
-    gap: 20px; }
-  .contacto {
-    width: 400px; }
-  .sobre-nosotros {
-    width: 600px; }
-  .img-preparacion figure img {
-    width: 600px; } }
+    header {
+        width: 100%;
+        background-position: center;
+    }
+    .galeria-tragos {
+        grid-template-columns: repeat(2, 45%);
+        gap: 20px;
+    }
+    .contacto {
+        width: 400px;
+    }
+    .sobre-nosotros {
+        width: 600px;
+    }
+    .img-preparacion figure img {
+        width: 600px;
+    }
+}
 
 @media (max-width: 680px) {
-  .galeria-tragos {
-    grid-template-columns: repeat(1, 40%); }
-  .conteiner h1 {
-    font-size: 1.1rem; }
-  .conteiner .galeria-inicio {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center; }
+    .galeria-tragos {
+        grid-template-columns: repeat(1, 40%);
+    }
+    .conteiner h1 {
+        font-size: 1.1rem;
+    }
+    .conteiner .galeria-inicio {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
     .conteiner .galeria-inicio .bebidas img {
-      width: 250px; }
-  .sobre-nosotros {
-    width: 400px;
-    font-size: 1.3rem; }
-  .img-preparacion figure img {
-    width: 400px; }
-  footer .footer-contenido {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
+        width: 250px;
+    }
+    .sobre-nosotros {
+        width: 400px;
+        font-size: 1.3rem;
+    }
+    .img-preparacion figure img {
+        width: 400px;
+    }
+    footer .footer-contenido {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     footer .footer-contenido div {
-      text-align: center; }
+        text-align: center;
+    }
     footer .footer-contenido .redes {
-      padding: 20px;
-      margin: 10px; }
-  footer .img-btr {
-    width: 200px;
-    margin: 0 auto; } }
+        padding: 20px;
+        margin: 10px;
+    }
+    footer .img-btr {
+        width: 200px;
+        margin: 0 auto;
+    }
+}
 
 @media (max-width: 425px) {
-  body {
-    width: 100%; }
-  header {
-    width: 100%;
-    background-position: center; }
-  .galeria-tragos {
-    grid-template-columns: repeat(1, 45%); }
-  .conteiner h1 {
-    font-size: 1.1rem; }
-  .conteiner .galeria-inicio {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center; }
+    body {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+        background-position: center;
+    }
+    .galeria-tragos {
+        grid-template-columns: repeat(1, 45%);
+    }
+    .conteiner h1 {
+        font-size: 1.1rem;
+    }
+    .conteiner .galeria-inicio {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
     .conteiner .galeria-inicio .bebidas img {
-      width: 250px; }
-  .contacto {
-    width: 350px; }
-    .contacto .gmail-contacto, .contacto .wpp-contacto {
-      display: flex;
-      font-size: 16px;
-      gap: 10px; }
-      .contacto .gmail-contacto img, .contacto .wpp-contacto img {
-        width: 40px; }
-  .sobre-nosotros {
-    width: 350px;
-    font-size: 1rem; }
-  .img-preparacion figure img {
-    width: 350px; }
-  .footer-contenido {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
+        width: 250px;
+    }
+    .contacto {
+        width: 350px;
+    }
+    .contacto .gmail-contacto,
+    .contacto .wpp-contacto {
+        display: flex;
+        font-size: 16px;
+        gap: 10px;
+    }
+    .contacto .gmail-contacto img,
+    .contacto .wpp-contacto img {
+        width: 40px;
+    }
+    .sobre-nosotros {
+        width: 350px;
+        font-size: 1rem;
+    }
+    .img-preparacion figure img {
+        width: 350px;
+    }
+    .footer-contenido {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     .footer-contenido div {
-      text-align: center; }
+        text-align: center;
+    }
     .footer-contenido .redes {
-      padding: 20px;
-      margin: 10px; }
-  footer .img-btr {
-    width: 200px;
-    margin: 0 auto; } }
+        padding: 20px;
+        margin: 10px;
+    }
+    footer .img-btr {
+        width: 200px;
+        margin: 0 auto;
+    }
+}
 
 @media (max-width: 366px) {
-  html {
-    overflow-x: hidden; }
-  body {
-    width: 100%; }
-  header {
-    background-position: center; }
-  .contacto {
-    width: 320px;
-    text-align: center; }
-  .conteiner h1 {
-    font-size: 1.1rem; }
-  .conteiner .galeria-inicio {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center; }
+    html {
+        overflow-x: hidden;
+    }
+    body {
+        width: 100%;
+    }
+    header {
+        background-position: center;
+    }
+    .contacto {
+        width: 320px;
+        text-align: center;
+    }
+    .conteiner h1 {
+        font-size: 1.1rem;
+    }
+    .conteiner .galeria-inicio {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
     .conteiner .galeria-inicio .bebidas img {
-      width: 250px; }
-  .sobre-nosotros {
-    width: 300px;
-    font-size: 1rem; }
-  .img-preparacion figure img {
-    width: 300px; }
-  .footer-contenido {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
+        width: 250px;
+    }
+    .sobre-nosotros {
+        width: 300px;
+        font-size: 1rem;
+    }
+    .img-preparacion figure img {
+        width: 300px;
+    }
+    .footer-contenido {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     .footer-contenido div {
-      text-align: center; }
+        text-align: center;
+    }
     .footer-contenido .redes {
-      padding: 20px;
-      margin: 10px; }
-  footer .img-btr {
-    width: 200px;
-    margin: 0 auto; } }
+        padding: 20px;
+        margin: 10px;
+    }
+    footer .img-btr {
+        width: 200px;
+        margin: 0 auto;
+    }
+}
 
 @media (max-width: 320px) {
-  html {
-    overflow-x: hidden; }
-  body {
-    width: 100%; }
-  header {
-    width: 100%;
-    background-position: center; }
-  .conteiner h1 {
-    font-size: 1.1rem; }
-  .conteiner .galeria-inicio {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center; }
+    html {
+        overflow-x: hidden;
+    }
+    body {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+        background-position: center;
+    }
+    .conteiner h1 {
+        font-size: 1.1rem;
+    }
+    .conteiner .galeria-inicio {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
     .conteiner .galeria-inicio .bebidas img {
-      width: 250px; }
-  .contacto {
-    width: 300px; }
-    .contacto .gmail-contacto, .contacto .wpp-contacto {
-      display: flex;
-      font-size: 16px;
-      gap: 10px; }
-      .contacto .gmail-contacto img, .contacto .wpp-contacto img {
-        width: 40px; }
-  .footer-contenido {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
+        width: 250px;
+    }
+    .contacto {
+        width: 300px;
+    }
+    .contacto .gmail-contacto,
+    .contacto .wpp-contacto {
+        display: flex;
+        font-size: 16px;
+        gap: 10px;
+    }
+    .contacto .gmail-contacto img,
+    .contacto .wpp-contacto img {
+        width: 40px;
+    }
+    .footer-contenido {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     .footer-contenido div {
-      text-align: center; }
+        text-align: center;
+    }
     .footer-contenido .redes {
-      padding: 20px;
-      margin: 10px; } }
+        padding: 20px;
+        margin: 10px;
+    }
+}
