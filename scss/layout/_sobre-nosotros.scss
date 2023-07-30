@@ -11,8 +11,7 @@
 }
 
 .img-preparacion {
-    display: flex;
-    justify-content: center;
+    @include dpflex(flex, none, center);
     flex-wrap: wrap;
     padding: 40px;
 

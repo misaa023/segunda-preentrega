@@ -44,8 +44,7 @@
         }
 
         .galeria-inicio {
-            display: flex;
-            flex-direction: column;
+            @include dpflex(flex, column, none);
             flex-wrap: wrap;
             align-items: center;
 
@@ -107,8 +106,7 @@
         }
 
         .galeria-inicio {
-            display: flex;
-            flex-direction: column;
+            @include dpflex(flex, column, none);
             flex-wrap: wrap;
             align-items: center;
 
@@ -121,7 +119,7 @@
     }
 
     .contacto {
-        width: 350px;
+        width: 380px;
 
         .gmail-contacto {
             display: flex;
@@ -191,8 +189,7 @@
         }
 
         .galeria-inicio {
-            display: flex;
-            flex-direction: column;
+            @include dpflex(flex, column, none);
             flex-wrap: wrap;
             align-items: center;
 
@@ -253,8 +250,7 @@
         }
 
         .galeria-inicio {
-            display: flex;
-            flex-direction: column;
+            @include dpflex(flex, column, none);
             flex-wrap: wrap;
             align-items: center;
 
@@ -271,11 +267,12 @@
 
         .gmail-contacto {
             display: flex;
-            font-size: 16px;
+            font-size: 14px;
             gap: 10px;
 
             img {
                 width: 40px;
+                height: 40px;
             }
         }
     }

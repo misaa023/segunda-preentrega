@@ -18,7 +18,7 @@
         font-size: 1.875rem;
         padding: 1.25rem;
         margin-top: 1.25rem;
-        color: white;
+        color: $color-text-principal;
     }
 
     .bebidas img {
@@ -41,7 +41,7 @@
         font-size: 1.2rem;
         padding-top: 1.875rem;
     }
-
+    // uso de extend
     .wpp-contacto {
         @extend .gmail-contacto;
         padding-bottom: 1.875rem;
