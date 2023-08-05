@@ -8,14 +8,14 @@ footer {
 
     .footer-contenido {
         @include dpflex(flex, none, space-around);
-    }
 
-    .redes {
-        padding-top: 20px;
-        margin-top: auto;
-    }
+        .redes {
+            padding-top: 20px;
+            margin-top: auto;
+        }
 
-    .img-btr {
-        margin-top: auto;
+        .img-btr {
+            margin-top: auto;
+        }
     }
 }

@@ -75,11 +75,11 @@ footer {
     display: flex;
     flex-direction: none;
     justify-content: space-around; }
-  footer .redes {
-    padding-top: 20px;
-    margin-top: auto; }
-  footer .img-btr {
-    margin-top: auto; }
+    footer .footer-contenido .redes {
+      padding-top: 20px;
+      margin-top: auto; }
+    footer .footer-contenido .img-btr {
+      margin-top: auto; }
 
 .galeria-tragos {
   display: grid;
