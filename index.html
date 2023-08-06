@@ -74,34 +74,37 @@
 
         <!--Seccion principal-->
         <main>
-            <section class="conteiner">
+            <section class="conteiner bounce-in-top">
                 <h1>
                     Bienvenidos a la pagina de bebidas alcohólicas, podes
                     encontrar todo tipo de tragos, shots y bebidas sin alcohol,
                     para poder preparar en tu casa vos mismo.
                 </h1>
                 <!--seccion imagenes-->
-                <div class="galeria-inicio">
+                <div class="galeria-inicio bounce-in-top">
                     <figure class="bebidas">
                         <p>Tragos</p>
-                        <img
-                            src="./assets/img/Trago.png"
-                            alt="imagen de tragos"
-                        />
+                        <a href="./pages/tragos.html"
+                            ><img
+                                src="./assets/img/Trago.png"
+                                alt="imagen de tragos"
+                        /></a>
                     </figure>
                     <figure class="bebidas">
                         <p>Shots</p>
-                        <img
-                            src="./assets/img/shots.png"
-                            alt="imagen de shots"
-                        />
+                        <a href="./pages/shots.html"
+                            ><img
+                                src="./assets/img/shots.png"
+                                alt="imagen de shots"
+                        /></a>
                     </figure>
                     <figure class="bebidas">
                         <p>Sin Alcohol</p>
-                        <img
-                            src="./assets/img/jugos.png"
-                            alt="imagen de jugos"
-                        />
+                        <a href="./pages/sin-alcohol.html"
+                            ><img
+                                src="./assets/img/jugos.png"
+                                alt="imagen de jugos"
+                        /></a>
                     </figure>
                 </div>
             </section>
@@ -119,21 +122,9 @@
                     </figure>
                 </div>
                 <!--Mapa-->
-                <div
-                    style="
-                        overflow: hidden;
-                        resize: none;
-                        max-width: 100%;
-                        width: 600px;
-                        height: 300px;
-                    "
-                >
-                    <div
-                        id="canvas-for-googlemap"
-                        style="height: 100%; width: 100%; max-width: 100%"
-                    >
+                <div class="mapa-div">
+                    <div id="canvas-for-googlemap">
                         <iframe
-                            style="height: 100%; width: 100%; border: 0"
                             frameborder="0"
                             src="https://www.google.com/maps/embed/v1/place?q=Berazategui+centro,+Calle+149,+Berazategui,+Buenos+Aires,+Argentina&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
                         ></iframe>
@@ -143,16 +134,7 @@
                         rel="nofollow"
                         href="https://www.bootstrapskins.com/themes"
                         id="authmaps-data"
-                        >premium bootstrap themes</a
-                    ><style>
-                        #canvas-for-googlemap img.text-marker {
-                            max-width: none !important;
-                            background: none !important;
-                        }
-                        img {
-                            max-width: none;
-                        }
-                    </style>
+                    ></a>
                 </div>
             </section>
         </main>

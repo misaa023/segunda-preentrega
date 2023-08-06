@@ -81,6 +81,42 @@ footer {
     footer .footer-contenido .img-btr {
       margin-top: auto; }
 
+.sobre-nosotros {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  width: 700px;
+  margin: 0 auto;
+  font-size: 2rem;
+  margin-top: 50px;
+  border-radius: 10px;
+  height: auto; }
+
+.img-preparacion {
+  display: flex;
+  flex-direction: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 40px; }
+  .img-preparacion figure img {
+    border-radius: 20px;
+    width: 700px; }
+
+.mapa-div {
+  overflow: hidden;
+  resize: none;
+  max-width: 100%;
+  width: 600px;
+  height: 300px; }
+  .mapa-div #canvas-for-googlemap {
+    width: 100%;
+    height: 100%;
+    max-width: 100%; }
+  .mapa-div iframe {
+    height: 100%;
+    width: 100%;
+    border: 0; }
+
 .galeria-tragos {
   display: grid;
   grid-template-columns: repeat(2, 30%);
@@ -118,6 +154,7 @@ footer {
       text-align: left;
       padding-left: 10px; }
 
+/*PARA CARDS DE BEBIDAS*/
 .shadow-pop-bl:hover {
   animation: shadow-pop-bl 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both; }
 
@@ -135,26 +172,99 @@ footer {
     box-shadow: -1px 1px #1e78ff, -2px 2px #1e78ff, -3px 3px #1e78ff, -4px 4px #d02b98, -5px 5px #d02b98, -6px 6px #d02b98, -7px 7px #d6c42b, -8px 8px #d6c42b;
     transform: translateX(8px) translateY(-8px); } }
 
-.sobre-nosotros {
-  background-color: white;
-  padding: 20px;
-  text-align: center;
-  width: 700px;
-  margin: 0 auto;
-  font-size: 2rem;
-  margin-top: 50px;
-  border-radius: 10px;
-  height: auto; }
+/*==========================================*/
+/*PARA LAS CARD DE INDEX*/
+.bounce-in-top {
+  -webkit-animation: bounce-in-top 1.1s both;
+  animation: bounce-in-top 1.1s both; }
 
-.img-preparacion {
-  display: flex;
-  flex-direction: none;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 40px; }
-  .img-preparacion figure img {
-    border-radius: 20px;
-    width: 700px; }
+@-webkit-keyframes bounce-in-top {
+  0% {
+    -webkit-transform: translateY(-500px);
+    transform: translateY(-500px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0; }
+  38% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    opacity: 1; }
+  55% {
+    -webkit-transform: translateY(-65px);
+    transform: translateY(-65px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  72% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+  81% {
+    -webkit-transform: translateY(-28px);
+    transform: translateY(-28px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  90% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+  95% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; } }
+
+@keyframes bounce-in-top {
+  0% {
+    -webkit-transform: translateY(-500px);
+    transform: translateY(-500px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0; }
+  38% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    opacity: 1; }
+  55% {
+    -webkit-transform: translateY(-65px);
+    transform: translateY(-65px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  72% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+  81% {
+    -webkit-transform: translateY(-28px);
+    transform: translateY(-28px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  90% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+  95% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; } }
 
 @media (max-width: 1024px) {
   .galeria-tragos {
