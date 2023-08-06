@@ -1,4 +1,4 @@
-#Proyecto: Pagina web Bebidas Alcohólicas
+# Proyecto: Pagina web Bebidas Alcohólicas
 
 #### Profesor : Maximiliano Cardenas
 
