@@ -1,7 +1,29 @@
+@media (max-width: 1580px) {
+    .recomendacion {
+        width: 80%;
+    }
+
+    .card-recomendacion {
+        img {
+            width: 800px;
+        }
+    }
+}
+
 @media (max-width: 1024px) {
     .galeria-tragos {
         grid-template-columns: repeat(2, 45%);
         gap: 20px;
+    }
+
+    .recomendacion {
+        width: 80%;
+    }
+
+    .card-recomendacion {
+        img {
+            width: 500px;
+        }
     }
 }
 
@@ -84,6 +106,16 @@
         width: 200px;
         margin: 0 auto;
     }
+
+    .recomendacion {
+        width: 80%;
+    }
+
+    .card-recomendacion {
+        img {
+            width: 300px;
+        }
+    }
 }
 
 @media (max-width: 425px) {
@@ -163,6 +195,28 @@
         width: 200px;
         margin: 0 auto;
     }
+
+    .recomendacion {
+        width: 80%;
+    }
+
+    .card-recomendacion {
+        img {
+            width: 250px;
+        }
+        h2 {
+            padding: 0px 10px;
+        }
+        p {
+            @extend h2;
+        }
+        ul {
+            ol {
+                text-align: justify;
+                padding: 0px 1px;
+            }
+        }
+    }
 }
 
 @media (max-width: 366px) {
@@ -200,6 +254,29 @@
             }
         }
     }
+
+    .recomendacion {
+        width: 90%;
+    }
+
+    .card-recomendacion {
+        img {
+            width: 250px;
+        }
+        h2 {
+            padding: 0px 15px;
+        }
+        p {
+            padding: 0px 15px;
+        }
+        ul {
+            ol {
+                text-align: left;
+                padding: 0px 1px;
+            }
+        }
+    }
+
     //sobre nosotros
 
     .sobre-nosotros {
@@ -287,6 +364,15 @@
         .redes {
             padding: 20px;
             margin: 10px;
+        }
+    }
+    .recomendacion {
+        width: 90%;
+    }
+
+    .card-recomendacion {
+        img {
+            width: 200px;
         }
     }
 }

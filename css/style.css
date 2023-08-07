@@ -176,7 +176,7 @@ footer {
 /*PARA LAS CARD DE INDEX*/
 .bounce-in-top {
   -webkit-animation: bounce-in-top 1.1s both;
-  animation: bounce-in-top 1.1s both; }
+  animation: bounce-in-top 1.3s both; }
 
 @-webkit-keyframes bounce-in-top {
   0% {
@@ -266,10 +266,57 @@ footer {
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out; } }
 
+.recomendacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background: white;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 10px; }
+  .recomendacion .card-recomendacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; }
+
+.titulos-general {
+  color: white;
+  background-color: #7a0202;
+  width: 250px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 0px;
+  margin-top: 20px;
+  border-radius: 20px; }
+
+.titulo-recomendacion {
+  color: white;
+  background-color: #7a0202;
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 0px;
+  margin-top: 20px;
+  border-radius: 20px; }
+
+@media (max-width: 1580px) {
+  .recomendacion {
+    width: 80%; }
+  .card-recomendacion img {
+    width: 800px; } }
+
 @media (max-width: 1024px) {
   .galeria-tragos {
     grid-template-columns: repeat(2, 45%);
-    gap: 20px; } }
+    gap: 20px; }
+  .recomendacion {
+    width: 80%; }
+  .card-recomendacion img {
+    width: 500px; } }
 
 @media (max-width: 768px) {
   header {
@@ -314,7 +361,11 @@ footer {
       margin: 10px; }
   footer .img-btr {
     width: 200px;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  .recomendacion {
+    width: 80%; }
+  .card-recomendacion img {
+    width: 300px; } }
 
 @media (max-width: 425px) {
   body {
@@ -358,7 +409,16 @@ footer {
       margin: 10px; }
   footer .img-btr {
     width: 200px;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  .recomendacion {
+    width: 80%; }
+  .card-recomendacion img {
+    width: 250px; }
+  .card-recomendacion h2, .card-recomendacion p {
+    padding: 0px 10px; }
+  .card-recomendacion ul ol {
+    text-align: justify;
+    padding: 0px 1px; } }
 
 @media (max-width: 366px) {
   html {
@@ -380,6 +440,17 @@ footer {
     align-items: center; }
     .conteiner .galeria-inicio .bebidas img {
       width: 250px; }
+  .recomendacion {
+    width: 90%; }
+  .card-recomendacion img {
+    width: 250px; }
+  .card-recomendacion h2, .card-recomendacion p {
+    padding: 0px 15px; }
+  .card-recomendacion p {
+    padding: 0px 15px; }
+  .card-recomendacion ul ol {
+    text-align: left;
+    padding: 0px 1px; }
   .sobre-nosotros {
     width: 300px;
     font-size: 1rem; }
@@ -433,4 +504,8 @@ footer {
       text-align: center; }
     .footer-contenido .redes {
       padding: 20px;
-      margin: 10px; } }
+      margin: 10px; }
+  .recomendacion {
+    width: 90%; }
+  .card-recomendacion img {
+    width: 200px; } }

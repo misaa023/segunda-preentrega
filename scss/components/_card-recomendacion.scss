@@ -1,0 +1,15 @@
+.recomendacion {
+    @include dpflex(flex, column, center);
+    align-items: center;
+    width: 50%;
+    background: white;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+
+    .card-recomendacion {
+        @include dpflex(flex, column, center);
+        align-items: center;
+        padding: 20px;
+    }
+}
